@@ -97,4 +97,5 @@ whoosh_index/
 *.sqlite3
 fabfile.py
 
-secret.py
+blogproject/secret.py
+blog_env/
