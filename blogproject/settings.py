@@ -9,10 +9,9 @@ https://docs.djangoproject.com/en/1.10/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.10/ref/settings/
 """
-# from .secret import *
+from .secret import *
 
 import os
-SECRET_KEY = 'i3k%m-808v3_)^h7975iw4v&fl5chq41^19j@u+b*vx7dvw*q$'
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -26,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [.xiaotian.com]
 
 # Application definition
 
@@ -83,17 +82,7 @@ WSGI_APPLICATION = 'blogproject.wsgi.application'
 #     }
 # }
 
-# mysql数据库配置
-DATABASES = {  
-    'default': {  
-        'ENGINE': 'django.db.backends.mysql',  
-        'NAME': 'yongzhen',  
-        'USER': 'root',  
-        'PASSWORD': 'root',  
-        'HOST': '127.0.0.1',  
-        'PORT': '3306',  
-    }  
-} 
+
 
 # Password validation
 # https://docs.djangoproject.com/en/1.10/ref/settings/#auth-password-validators
