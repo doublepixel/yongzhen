@@ -99,3 +99,5 @@ fabfile.py
 
 blogproject/secret.py
 blog_env/
+
+.vscode/
