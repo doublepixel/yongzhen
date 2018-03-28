@@ -2,8 +2,8 @@ from django.conf.urls import url
 
 from . import views
 
-app_name = 'novel'
+app_name = 'movie'
 urlpatterns = [
-    # url(r'^$', views.IndexView.as_view(), name='novel_index'),
+    # url(r'^$', views.IndexView.as_view(), name='movie_index'),
     
 ]
